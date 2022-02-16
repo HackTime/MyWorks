@@ -1,0 +1,19 @@
+#Enunciado
+#Dados a altura, a largura e a profundidade de um paralelepípedo, calcule a área da superfície e o volume deste paralelepípedo.
+#
+#Entradas
+#Os valores da altura, da largura da profundidade, como inteiros. Cada inteiro é fornecido em uma linha separada.
+#
+#Saída
+#Os valores da área da superfície e do volume do paralelepípedo, como inteiros, seguindo os seus respectivos nomes, como mostra os exemplo
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+Altura = float(input("Informe a Altura "))
+Largura = float(input("informe a Largura "))
+Profundidade = float(input("Informe a Profundidade "))
+Volume = Altura * Largura * Profundidade
+Area_da_Superficie = (Altura * Largura)*2 + (Profundidade * Altura)*2 + (Profundidade * Largura)*2
+print("Area da Superficie =",Area_da_Superficie)
+print("Volume do Paralelepipedo =",Volume)
