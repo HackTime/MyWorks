@@ -10,6 +10,23 @@
 #Saídas
 #O programa deve imprimir três números reais: a quilometragem rodada, quantos quilômetros por litro faz o veículo e o custo da viagem 
 #(com as identificações dos valores e unidades respectivas, como indicado nos exemplos).
+#Exemplos
+#
+#Odômetro do veículo antes da viagem: 12000
+#Odômetro do veículo depois da viagem: 13000
+#Número de litros de combustível consumidos: 50
+#Preço do litro de combustível: 5
+#Percurso: 1000.00 km
+#Consumo: 20.000 km/l
+#Custo da viagem: R$ 250.00
+#
+#Odômetro do veículo antes da viagem: 123456.7
+#Odômetro do veículo depois da viagem: 123987.6
+#Número de litros de combustível consumidos: 34.22
+#Preço do litro de combustível: 5.69
+#Percurso: 530.90 km
+#Consumo: 15.514 km/l
+#Custo da viagem: R$ 194.71
 # -*- coding: utf-8 -*-
 #
 # DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
