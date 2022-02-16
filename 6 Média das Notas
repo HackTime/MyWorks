@@ -11,6 +11,18 @@
 #Saídas
 #Três strings (cadeias de caracteres) com os prompts de solicitação das notas,
 #como mostrado nos exemplos e mais uma string com a avaliação do aluno “Aprovado” ou “Reprovado”, como também é mostrado nos exemplos.
+#Exemplos
+#
+#Qual a primeira nota do aluno? 7.0
+#Qual a segunda nota do aluno? 8.0
+#Qual a terceira nota do aluno? 9.0
+#Aprovado
+#
+#Qual a primeira nota do aluno? 1.0
+#Qual a segunda nota do aluno? 8.0
+#Qual a terceira nota do aluno? 9.0
+#Reprovado
+#
 # -*- coding: utf-8 -*-
 #
 # DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
