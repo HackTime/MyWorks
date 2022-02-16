@@ -6,6 +6,20 @@
 #
 #Saída
 #Os valores da área da superfície e do volume do paralelepípedo, como inteiros, seguindo os seus respectivos nomes, como mostra os exemplo
+#Exemplos
+#
+#10
+#10
+#10
+#Área da superfície: 600
+#Volume do Paralelepípedo: 1000
+#
+#12
+#13
+#14
+#Área da superfície: 1012
+#Volume do Paralelepípedo: 2184
+#
 # -*- coding: utf-8 -*-
 #
 # DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
