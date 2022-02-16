@@ -1,0 +1,22 @@
+#Enunciado
+#Dado um horário (em hora, minutos e segundos), calcule quantos minutos e quantos segundos transcorreram desde o início do dia.
+#
+#Entrada
+#Três números inteiros: horas, minutos e segundos de um horário, em linhas separadas.
+#
+#Saída
+#Como nos exemplos: o horário formatado; seguido de uma linha com uma frase, contendo a mensagem “Minutos transcorridos: “, 
+#seguida da quantidade de tempo transcorrido em minutos; e outra frase, numa nova linha, contendo a mensagem 
+#“Segundos transcorridos: “ seguida da quantidade de tempo transcorrido em segundos.
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+Horas = int(input("horas"))
+Minutos = int(input("minutos"))
+Segundos = int(input("Segundos"))
+print(Horas , ":", Minutos, ":" ,Segundos)
+MinutosT = (Horas*60) + Minutos + (Segundos/60)
+print("Minutos Transcorridos =" ,MinutosT)
+SegundosT = (Horas*60*60) + (Minutos*60) + Segundos
+print("Segundos Transcorridos =",SegundosT)
