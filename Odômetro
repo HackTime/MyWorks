@@ -1,0 +1,26 @@
+#Enunciado
+#Um motorista anota a marcação do odômetro do seu veículo antes e após uma viagem, bem como o número de litros de combustível consumidos. 
+#Escreva um programa para ler os três dados citados acima e o preço do litro do combustível e, em seguida, calcular e imprimir a quilometragem rodada, 
+#quantos quilômetros por litro faz o veículo e o custo da viagem.
+#
+#Entrada
+#Quatro valores reais: marcação do odômetro do veículo antes da viagem, marcação do odômetro do veículo depois da viagem, 
+#número de litros de combustível consumidos e preço do litro de combustível, em linhas separadas e precedidos de seus “prompts” como mostra os exemplos.
+#
+#Saídas
+#O programa deve imprimir três números reais: a quilometragem rodada, quantos quilômetros por litro faz o veículo e o custo da viagem 
+#(com as identificações dos valores e unidades respectivas, como indicado nos exemplos).
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+A = float(input("Odometro do veiculo Antes da Viagem = "))
+B = float(input("odometro do veiculo Depois da viagem = "))
+C = float(input("numero de litros de combustivel consumidos = "))
+D = float(input(" Peroço do litro do combustivel = "))
+E = B-A
+print("Percuso = ",E , " km")
+F = E/C
+print("Consumo = ", F , "km/l")
+G = C * D
+print("Custo da Viagem = R$ ",G)
