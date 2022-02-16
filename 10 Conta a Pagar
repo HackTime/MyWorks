@@ -1,0 +1,65 @@
+#Enunciado
+#Nesse laboratório o programa lerá da entrada o código de um item (produto), sua quantidade e, com base na tabela abaixo, será mostrado o valor da conta a ser paga.
+#Código
+#Descrição do Item
+#Valor
+#1
+#Cachorro Quente
+#R$ 10,50
+#
+#2
+#X-Salada
+#R$ 12,00
+#
+#3
+#X-Bacon
+#R$ 14,00
+#
+#4
+#Misto Quente
+#R$ 8,00
+#
+#5
+#Refrigerante
+#R$ 5,50
+#
+#Entradas
+#Dois inteiros: o código do item e a quantidade comprada, precedidos de seus “prompts”, como mostrado nos exemplos.
+#
+#Saídas
+#Duas strings (cadeias de caracteres) com os “prompts” de solicitação do código do item e da quantidade e uma string “Total =”, seguida do valor real, correspondente ao total da compra ou a string “Código inválido!” (veja os exemplos).
+#
+#Exemplos
+#
+#Informe o código do item: 2
+#Informe a quantidade do item: 3
+#Total = 36.0
+#
+#Informe o código do item: 9
+#Código inválido!
+#
+#Informe o código do item: 5
+#Informe a quantidade do item: 6
+#Total = 33.0
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+a=int(input("Informe o Codigo do Intem "))
+b=int(input("Informe a quantidade do Intem "))
+if a==1:
+    print("Total = ",10.5*b)
+else:
+    if a==2:
+        print("Total = ",12*b)
+    else:
+        if a==3:
+            print("Total = ",14*b)
+        else:
+            if a==4:
+                print("Total =",8*b)
+            else:
+                if a==5:
+                    print("Total =",5.5*b)
+                else:
+                    print("codigo invalido")
