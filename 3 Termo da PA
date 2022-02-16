@@ -6,6 +6,16 @@
 #
 #Saída
 #A mensagem “Vigésimo termo da PA = “, seguida do 20º termo da PA, como inteiro.
+#Exemplos
+#
+#1
+#1
+#Vigésimo termo da PA = 20
+#
+#10
+#7
+#Vigésimo termo da PA = 143
+#
 # -*- coding: utf-8 -*-
 #
 # DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
