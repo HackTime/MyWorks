@@ -8,6 +8,21 @@
 #Como nos exemplos: o horário formatado; seguido de uma linha com uma frase, contendo a mensagem “Minutos transcorridos: “, 
 #seguida da quantidade de tempo transcorrido em minutos; e outra frase, numa nova linha, contendo a mensagem 
 #“Segundos transcorridos: “ seguida da quantidade de tempo transcorrido em segundos.
+#Exemplos
+#10
+#10
+#10
+#10 : 10 : 10
+#Minutos transcorridos: 610
+#Segundos transcorridos: 36610
+#
+#36
+#44
+#7
+#6 : 44 : 7
+#Minutos transcorridos: 404
+#Segundos transcorridos: 24247
+#
 # -*- coding: utf-8 -*-
 #
 # DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
