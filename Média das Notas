@@ -1,0 +1,25 @@
+#Enunciado
+#Nesse laboratório o programa lerá da entrada três valores correspondentes às notas de determinado aluno, 
+#cada uma dessas notas com uma casa decimal. Você deverá calcular a média das notas e imprimir uma mensagem na saída do programa, 
+#mostrando se o aluno foi aprovado ou não. Caso o aluno atinja uma média maior ou igual a 7.0, a saída deverá ser “Aprovado”, 
+#e caso a média seja menor que 7.0, a saída deverá ser “Reprovado”.
+#
+#Entradas
+#Três números reais, um em cada linha, com uma casa decimal, correspondente às notas de um aluno, 
+#em resposta ao “prompt” de entrada mostrado nos exemplos.
+#
+#Saídas
+#Três strings (cadeias de caracteres) com os prompts de solicitação das notas,
+#como mostrado nos exemplos e mais uma string com a avaliação do aluno “Aprovado” ou “Reprovado”, como também é mostrado nos exemplos.
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+nota1 = float(input("Qual a Primeira Nota do aluno? "))
+nota2 = float(input("Qual a Segunda Nota do aluno? "))
+nota3 = float(input("Qual a Tereira Nota do Aluno? "))
+media = (nota1 + nota2 + nota3)/3  
+if media<7.0:
+    print("Reprovado")
+elif media<=10:
+    print("Aprovado")
