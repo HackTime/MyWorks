@@ -1,0 +1,16 @@
+#Enunciado
+#Dados o primeiro termo e a razão de uma PA (Progressão Aritmética), calcular o seu 20º termo.
+#
+#Entrada
+#Dois inteiros, o primeiro termo e a razão da PA, em linhas separadas.
+#
+#Saída
+#A mensagem “Vigésimo termo da PA = “, seguida do 20º termo da PA, como inteiro.
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+Primeiro = int(input("Digite o Primeiro termo"))
+Razao = int(input("digite a Razão"))
+GG = Primeiro + ((20 - 1) * Razao)
+print("vigésimo termo da PA = ", GG)
