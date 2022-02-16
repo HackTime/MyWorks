@@ -1,0 +1,18 @@
+#Enunciado
+#Dada a base e a altura de um retângulo, calcule e escreva o perímetro, a área e a diagonal desse retângulo.
+#Entradas 
+#Dois reais, comprimentos da base e da altura de retângulo, em linhas separadas.
+#Saída
+#Os valores do perímetro, da área e da diagonal do retângulo, como reais, seguindo os seus respectivos nomes, como mostra os exemplos.
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+Base = float(input("informe a Base"))
+Altura = float(input("Informe a Altura"))
+Area = Base*Altura
+Diagonal = ((Base*Base)+(Altura*Altura))**0.5
+Perimetro = Base + Base + Altura + Altura
+print("Area =",Area)
+print("Diagonal =",Diagonal)
+print("perimetro =",Perimetro)
