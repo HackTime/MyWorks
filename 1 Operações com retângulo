@@ -6,6 +6,20 @@
 #
 #Saída
 #Os valores do perímetro, da área e da diagonal do retângulo, como reais, seguindo os seus respectivos nomes, como mostra os exemplos.
+#Exemplos
+#
+#10
+#10.5
+#Perímetro: 41.0
+#Área: 105.0
+#Diagonal: 14.5
+#
+#12.45
+#19.234
+#Perímetro: 63.368
+#Área: 239.4633
+#Diagonal: 22.911771123158506
+#
 # -*- coding: utf-8 -*-
 #
 # DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
