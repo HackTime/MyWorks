@@ -1,0 +1,19 @@
+#Enunciado
+#Nesse laboratório o programa lerá da entrada um número inteiro e informará na saída se esse número é par ou ímpar. Caso o número seja par, 
+#a saída deverá ser a mensagem "Par" e caso seja ímpar, deverá ser a mensagem "Ímpar".
+#
+#Entrada
+#Um número inteiro precedido do seu “prompt”, como nos exemplos.
+#
+#Saída
+#Uma string (cadeia de caracteres) que é o “prompt” da solicitação do inteiro e uma outra string com mensagem “Par” ou “Ímpar”,
+#de acordo com a verificação feita sobre o inteiro lido  (veja os exemplos).
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+numero = int(input("informe um numero inteiro = "))
+if (numero%2) == 0:
+    print("Par")
+else:
+    print("Impar")
