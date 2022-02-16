@@ -1,0 +1,54 @@
+Enunciado
+Nesse laboratório você lerá da entrada dois números e o símbolo da operação a ser realizada com esses dois números 
+(“+”, “-”, “/” e “*”), referentes à adição, subtração, divisão ou multiplicação, respectivamente.
+
+Entrada
+Dois números reais, precedidos de seus “prompts”, seguidos do símbolo (string) da operação aritmética (“+”, “-”, “*” ou “/”), 
+todos em linhas separadas, como mostrados nos exemplos.
+
+Saída
+As strings (cadeias de caracteres) com os “prompts” das solicitações dos operandos e operador e a mensagem: “Resultados da operação =”, 
+sendo que “operação” será “adição”, “subtração”, “multiplicação ou divisão”, seguida do resultado calculado ou as mensagens: "Operador inválido!" 
+ou "Divisão por zero inválida!"  (veja os exemplos).
+EXEMPLOS:
+
+Informe o primeiro operando: 10
+Informe o segundo operando: 0
+Informe o operador (+, -, * ou /): /
+Divisão por zero inválida!
+
+Informe o primeiro operando: 2.7
+Informe o segundo operando: 3
+Informe o operador (+, -, * ou /): %
+Operador inválido!
+
+Informe o primeiro operando: 45.7
+Informe o segundo operando: 2.6
+Informe o operador (+, -, * ou /): /
+Resultado da divisão = 17.576923076923077
+
+Informe o primeiro operando: 1
+Informe o segundo operando: 2
+Informe o operador (+, -, * ou /): +
+Resultado da adição = 3.0
+
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+A = float(input("Informe o primeiro operando = "))
+B = float(input("informe o segundo operando = "))
+D = input("informe o operador (+,-,* ou /) = ")
+if D == "+":
+    print("Resultado da adição = ",A + B)
+elif D == "-":
+    print("Resultado da Subitação = ",A - B)
+elif D == "/" and B !=0:
+    print("Resultado da Divisão = ",A / B)
+elif D == "*":
+    print("Resultado da Multiplicação = ",A * B)
+else:
+    if D == "/" and B == 0:
+        print("Divisão por zero Invalida!")
+    else:
+        print("Operador Invalido!")
