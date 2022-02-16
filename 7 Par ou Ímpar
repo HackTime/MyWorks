@@ -8,6 +8,13 @@
 #Saída
 #Uma string (cadeia de caracteres) que é o “prompt” da solicitação do inteiro e uma outra string com mensagem “Par” ou “Ímpar”,
 #de acordo com a verificação feita sobre o inteiro lido  (veja os exemplos).
+#Exemplos
+#Informe um número inteiro: 1
+#Ímpar
+#
+#Informe um número inteiro: 2
+#Par
+#
 # -*- coding: utf-8 -*-
 #
 # DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
