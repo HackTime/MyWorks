@@ -1,0 +1,34 @@
+#Enunciado
+#Nesse laboratório o programa lerá da entrada a idade de um eleitor e mostrará na saída sua condição em relação à eleição. Se a idade for menor que 16 anos, será mostrada a mensagem “Voto Proibido”, se for menor que 18 anos e maior ou igual a 16 anos, mostrará a mensagem “Voto Optativo”, se for maior ou igual a 18 anos e menor que 65 anos, mostrará a mensagem “Voto Obrigatório”, e se for maior ou igual a 65 anos, mostrará a mensagem “Voto Optativo”. Unifique as condições para que a instrução que mostra a mensagem “Voto Optativo” apareça uma única vez no programa.
+#
+#Entradas
+#Um inteiro correspondente à idade da pessoa, precedido do “prompt”, como mostrado nos exemplos.
+#
+#Saídas
+#Uma string (cadeia de caracteres) com o “prompt” de solicitação da idade do eleitor e uma string com a mensagem de acordo com a análise da idade, podendo ser: “Voto Proibido”, “Voto Optativo” ou “Voto Obrigatório” (veja os exemplos).
+#
+#Exemplos
+#Informe a idade do eleitor: 6
+#Voto Proibido
+#
+#Informe a idade do eleitor: 70
+#Voto Optativo
+#
+#Informe a idade do eleitor: 18
+#Voto Obrigatório
+#
+#Informe a idade do eleitor: 17
+#Voto Optativo
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+idade = int(input("Informe a Idade do Eleitor = "))
+if idade <= 15:
+    print("Voto Proibido")
+else:
+    if idade == 16 or idade == 17 or idade >64:
+        print("Voto Optativo")
+    else:
+        if idade > 17 or idade < 65 :
+            print("Voto Obrigatorio")
