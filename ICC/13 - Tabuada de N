@@ -1,0 +1,40 @@
+Enunciado
+Faça um programa que dado um número N de entrada, entre 1 e 10, imprima todos os números que são resultados da tabuada de N.
+
+Entradas
+Um número inteiro positivo para n, entre 1 e 10, precedido por um “prompt”, como mostrado nos exemplos.
+
+Saídas
+Uma sequência de inteiros, resultados da tabuada de N, como mostram os exemplos.
+
+Exemplos
+Informe um valor inteiro positivo entre 1 e 10: 10
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+Informe um valor inteiro positivo entre 1 e 10: 5
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+A = int(input("informe um valor inteiro positivo entre 1 e 10 = "))
+for B in range(10):
+    print(A*(B+1))
