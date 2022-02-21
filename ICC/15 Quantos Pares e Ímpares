@@ -1,0 +1,54 @@
+Enunciado
+Faça um programa que leia 10 números inteiros na entrada, e imprima na saída quantos números são pares e quantos são ímpares.
+
+Entradas
+Dez números inteiros. Todos os valores serão informados em linhas separadas e precedidos de seus “prompts”, como mostra os exemplos.
+
+Saídas
+Dois valores inteiros: a quantidade de números pares e ímpares dos dez números, precedidas de seus identificadores, seguidas de um “=”. Ver exemplos.
+
+Exemplos
+Número 1: 1
+Número 2: 2
+Número 3: 3
+Número 4: 4
+Número 5: 5
+Número 6: 6
+Número 7: 7
+Número 8: 8
+Número 9: 9
+Número 10: 10
+Quantidade de pares = 5
+Quantidade de ímpares = 5
+
+Número 1: 7
+Número 2: 5
+Número 3: 3
+Número 4: 8
+Número 5: 5
+Número 6: 2
+Número 7: 1
+Número 8: 5
+Número 9: 9
+Número 10: 4
+Quantidade de pares = 3
+Quantidade de ímpares = 7
+
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+def C(B):
+    P = 0
+    I = 0
+    for A in B:
+        if (A % 2 == 0):
+            P += 1
+        else:
+            I += 1
+    return P, I
+B = list()
+for c in range(10):
+    A = int(input("valor = "))
+    B.append(A)
+print("A quantidade de valores Pares e Impares são , respectivamente = ", C(B))
