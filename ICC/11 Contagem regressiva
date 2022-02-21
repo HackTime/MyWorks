@@ -1,0 +1,37 @@
+Enunciado
+Faça um programa que dado um número N de entrada, imprima na saída uma contagem regressiva de N até 0.
+
+Entradas
+Um número inteiro positivo para N, precedido por um “prompt”, como mostrado nos exemplos.
+
+Saídas
+Uma sequência decrescente de inteiros de N a 0, cada número em uma linha separada, como mostrada nos exemplos.
+
+Exemplos
+Informe um valor inteiro positivo para N: 10
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+
+Informe um valor inteiro positivo para N: 5
+5
+4
+3
+2
+1
+0
+# -*- coding: utf-8 -*-
+#
+# DIGITE SEU CÓDIGO (PROGRAMA) APÓS ESTES COMENTÁRIOS (a partir da linha 5)
+#
+N = int(input("Informe um valor inteiro positivo para N = "))
+for A in range (N, -1 ,-1) :
+    print(A)
