@@ -1,0 +1,31 @@
+Enunciado
+Faça um programa que leia um valor inteiro N na entrada e, em seguida, leia N números e calcule a média aritmética desses números. Escreva o resultado na saída.
+
+Entradas
+Um número inteiro positivo para N, precedido por um “prompt”, seguido de N números reais, precedidos de seus “prompts”, como mostrado nos exemplos.
+
+Saídas
+Um valor real que é a média dos números lidos, precedida de seu identificador e do sinal de “=”. Veja os exemplos.
+
+Exemplos
+
+Informe a quantidade de números para o cálculo da média: 5
+Número 1: 100
+Número 2: 3.14159
+Número 3: 17.12
+Número 4: 45
+Número 5: -354.66
+Média = -37.879682
+
+Informe a quantidade de números para o cálculo da média: 10
+Número 1: -4
+Número 2: -3
+Número 3: -2
+Número 4: -1
+Número 5: 0
+Número 6: 1
+Número 7: 2
+Número 8: 3
+Número 9: 4
+Número 10: 5
+Média = 0.5
